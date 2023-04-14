@@ -16,16 +16,16 @@
     />
   </head>
   <body>
-    <!--<header class="header">
+    <header class="header">
       <div class="container header-container">
-        <nav class="header-nav">
-          <a class="header-logo link" href="./index.html"> Web<span class="header-logo-text">Studio</span> </a>
+        <a class="header-logo link" href="./index.html"> Web<span class="header-logo-text">Studio</span></a>
+        <nav>
           <ul class="header-list list">
             <li class="header-item">
-              <a class="header-item-link link" href="./index.html">Studio</a>
+              <a class="header-item-link link active" href="./index.html">Studio</a>
             </li>
             <li class="header-item">
-              <a class="header-item-link link active" href="./portfolio.html">Portfolio</a>
+              <a class="header-item-link link" href="./portfolio.html">Portfolio</a>
             </li>
             <li class="header-item">
               <a class="header-item-link link" href="">Contacts</a>
@@ -42,8 +42,79 @@
             </li>
           </ul>
         </address>
+        <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" viewBox="0 0 32 22" fill="none">
+            <g clip-path="url(#clip0_297053_2156)">
+              <path
+                fill="currentColor"
+                d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861"
+                stroke="currentColor"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_297053_2156">
+                <rect width="32" height="22" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </button>
       </div>
-    </header> -->
+    </header>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+          <path
+            fill="currentColor"
+            d="M8 0.805714L7.19429 0L4 3.19429L0.805714 0L0 0.805714L3.19429 4L0 7.19429L0.805714 8L4 4.80571L7.19429 8L8 7.19429L4.80571 4L8 0.805714Z"
+          />
+        </svg>
+      </button>
+      <ul class="mobile-navigation list">
+        <li><a href="/index.html" class="mobile-navigation-link link">Studio</a></li>
+        <li><a href="/portfolio.html" class="mobile-navigation-link link active">Portfolio</a></li>
+        <li><a href="" class="mobile-navigation-link link">Contacts</a></li>
+      </ul>
+      <div class="mobile-menu-contacts">
+        <div>
+          <a class="mobile-tell-menu link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+          <a class="mobile-mail-menu link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </div>
+
+        <ul class="workers-soc-list list">
+          <li class="workers-soc-item">
+            <a class="workers-soc-link link" href="">
+              <svg width="16" height="16" class="workers-soc-icon">
+                <use href="./images/icon-soc.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="workers-soc-item">
+            <a class="workers-soc-link link" href="">
+              <svg width="16" height="16" class="workers-soc-icon">
+                <use href="./images/icon-soc.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="workers-soc-item">
+            <a class="workers-soc-link link" href="">
+              <svg width="16" height="16" class="workers-soc-icon">
+                <use href="./images/icon-soc.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="workers-soc-item">
+            <a class="workers-soc-link link" href="">
+              <svg width="16" height="16" class="workers-soc-icon">
+                <use href="./images/icon-soc.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <main>
       <section class="portfolio-hero section">
         <div class="container">
@@ -259,7 +330,7 @@
         </div>
       </section>
     </main>
-    <!--<footer class="footer">
+    <footer class="footer">
       <div class="container footer-container">
         <div class="footer-item footer-item--info">
           <a class="footer-logo link link" href="./index.html">Web<span class="footer-logo-text">Studio</span> </a>
@@ -313,6 +384,7 @@
           </form>
         </div>
       </div>
-    </footer> -->
+    </footer>
+    <script defer src="./js/mobile-menu.js"></script>
   </body>
 </html>
