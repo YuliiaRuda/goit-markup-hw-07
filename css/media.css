@@ -1,0 +1,140 @@
+/* for the mobile */
+
+@media screen and (max-width: 428px) {
+  .workers-soc-list.list {
+    flex-wrap: wrap;
+  }
+
+  .header-list {
+    display: none;
+  }
+
+  .header-address-list {
+    display: none;
+  }
+}
+
+/* for planshet */
+
+@media screen and (min-width: 768px) and (max-width: 1158px) {
+  .hero {
+    padding: 188px 0;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    width: 496px;
+    margin: 0 auto 36px;
+  }
+
+  .hero {
+    background-color: var(--link-text-color);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/people-office-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/people-office-tab-2x.jpg);
+    }
+  }
+
+  .workers-list {
+    gap: 64px 24px;
+  }
+
+  .about-list {
+    display: flex;
+    gap: 24px;
+  }
+  .about-title {
+    text-align: left;
+  }
+  .about-item {
+    width: calc((100% - 1 * 24px) / 2);
+  }
+
+  .workers-item {
+    width: calc((100% - 1 * 24px) / 2);
+  }
+  .customers-list.list {
+    gap: 24px;
+  }
+
+  .customers-item {
+    width: calc((100% - 2 * 24px) / 3);
+  }
+
+  .workers .container {
+    padding: 0 108px;
+  }
+
+  .portfolio-container-item {
+    width: calc((100% - 1 * 24px) / 2);
+  }
+}
+
+/* for desktop */
+
+@media screen and (min-width: 1158px) {
+  .hero {
+    padding: 188px 0;
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    width: 496px;
+    margin: 0 auto 48px;
+  }
+
+  .about-list {
+    display: flex;
+    gap: 24px;
+  }
+  .about-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .about-title {
+    font-size: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: left;
+  }
+
+  .about-item-picture {
+    display: flex;
+  }
+
+  .work {
+    display: block;
+  }
+
+  .workers-list {
+    gap: 24px;
+    flex-wrap: nowrap;
+  }
+
+  .workers .container {
+    padding: 0 16px;
+  }
+
+  .customers-list.list {
+    gap: 24px;
+  }
+
+  .customers-item {
+    width: calc((100% - 5 * 24px) / 6);
+  }
+
+  .portfolio-container-item {
+    width: calc((100% - 2 * 24px) / 3);
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+}
