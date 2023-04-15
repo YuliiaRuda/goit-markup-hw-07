@@ -45,11 +45,18 @@
         <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
           <svg xmlns="http://www.w3.org/2000/svg" width="32" height="22" viewBox="0 0 32 22" fill="none">
             <g clip-path="url(#clip0_297053_2156)">
-              <path fill="currentColor" d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path
+                fill="currentColor"
+                d="M1.34766 20.0431H30.8861M1.34766 10.7354H30.8861M1.34766 1.42773H30.8861"
+                stroke="currentColor"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
             </g>
             <defs>
               <clipPath id="clip0_297053_2156">
-                <rect width="32" height="22" fill="white"/>
+                <rect width="32" height="22" fill="white" />
               </clipPath>
             </defs>
           </svg>
@@ -57,52 +64,57 @@
       </div>
     </header>
     <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
-        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
-          <path fill="currentColor" d="M8 0.805714L7.19429 0L4 3.19429L0.805714 0L0 0.805714L3.19429 4L0 7.19429L0.805714 8L4 4.80571L7.19429 8L8 7.19429L4.80571 4L8 0.805714Z"/>
-        </svg>
-      </button>
-      <ul class='mobile-navigation list'>
-        <li><a href="/index.html" class="mobile-navigation-link link active">Studio</a></li>
-        <li><a href="/portfolio.html" class="mobile-navigation-link link">Portfolio</a></li>
-        <li><a href="" class="mobile-navigation-link link">Contacts</a></li>
-      </ul>
-      <div class="mobile-menu-contacts">
-        <div>
-          <a class="mobile-tell-menu link" href="tel:+110001111111">+11 (000) 111-11-11</a>
-          <a class="mobile-mail-menu link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </div>
-
-        <ul class="workers-soc-list list">
-          <li class="workers-soc-item">
-            <a class="workers-soc-link link" href="">
-              <svg width="16" height="16" class="workers-soc-icon">
-                <use href="./images/icon-soc.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="workers-soc-item">
-            <a class="workers-soc-link link" href="">
-              <svg width="16" height="16" class="workers-soc-icon">
-                <use href="./images/icon-soc.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="workers-soc-item">
-            <a class="workers-soc-link link" href="">
-              <svg width="16" height="16" class="workers-soc-icon">
-                <use href="./images/icon-soc.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-          <li class="workers-soc-item">
-            <a class="workers-soc-link link" href="">
-              <svg width="16" height="16" class="workers-soc-icon">
-                <use href="./images/icon-soc.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
+      <div class="container mobile-menu-container">
+        <button class="menu-toggle js-close-menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none">
+            <path
+              fill="currentColor"
+              d="M8 0.805714L7.19429 0L4 3.19429L0.805714 0L0 0.805714L3.19429 4L0 7.19429L0.805714 8L4 4.80571L7.19429 8L8 7.19429L4.80571 4L8 0.805714Z"
+            />
+          </svg>
+        </button>
+        <ul class="mobile-navigation list">
+          <li><a href="/index.html" class="mobile-navigation-link link active">Studio</a></li>
+          <li><a href="/portfolio.html" class="mobile-navigation-link link">Portfolio</a></li>
+          <li><a href="" class="mobile-navigation-link link">Contacts</a></li>
         </ul>
+        <div class="mobile-menu-contacts">
+          <div>
+            <a class="mobile-tell-menu link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <a class="mobile-mail-menu link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </div>
+
+          <ul class="workers-soc-list list">
+            <li class="workers-soc-item">
+              <a class="workers-soc-link link" href="">
+                <svg width="16" height="16" class="workers-soc-icon">
+                  <use href="./images/icon-soc.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="workers-soc-item">
+              <a class="workers-soc-link link" href="">
+                <svg width="16" height="16" class="workers-soc-icon">
+                  <use href="./images/icon-soc.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="workers-soc-item">
+              <a class="workers-soc-link link" href="">
+                <svg width="16" height="16" class="workers-soc-icon">
+                  <use href="./images/icon-soc.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="workers-soc-item">
+              <a class="workers-soc-link link" href="">
+                <svg width="16" height="16" class="workers-soc-icon">
+                  <use href="./images/icon-soc.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
 
@@ -169,13 +181,34 @@
           <h2 class="work-title">What are we doing</h2>
           <ul class="work-list list">
             <li class="work-item">
-              <img class="work-img" src="./images/img1.jpg" alt="Computer" width="360" height="300" />
+              <img
+                class="work-img"
+                srcset="./images/img1.jpg 1x, ./images/img1-2x.jpg 2x"
+                src="./images/img1.jpg"
+                alt="Computer"
+                width="360"
+                height="300"
+              />
             </li>
             <li class="work-item">
-              <img class="work-img" src="./images/img2.jpg" alt="Screen" width="360" height="300" />
+              <img
+                class="work-img"
+                srcset="./images/img2.jpg 1x, ./images/img2-2x.jpg 2x"
+                src="./images/img2.jpg"
+                alt="Screen"
+                width="360"
+                height="300"
+              />
             </li>
             <li class="work-item">
-              <img class="work-img" src="./images/img3.jpg" alt="Phone" width="360" height="300" />
+              <img
+                class="work-img"
+                srcset="./images/img3.jpg 1x, ./images/img3-2x.jpg 2x"
+                src="./images/img3.jpg"
+                alt="Phone"
+                width="360"
+                height="300"
+              />
             </li>
           </ul>
         </div>
@@ -231,7 +264,7 @@
             <li class="workers-item">
               <img
                 class="workers-img"
-                srcset="./images/Tom-Ford.jpg 1x, ./images/Tom-Ford.jpg 2x"
+                srcset="./images/Tom-Ford.jpg 1x, ./images/Tom-Ford-2x.jpg 2x"
                 src="./images/Tom-Ford.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -275,7 +308,7 @@
             <li class="workers-item">
               <img
                 class="workers-img"
-                srcset="./images/Camila-Garcia.jpg 1x, ./images/Camila-Garcia.jpg 2x"
+                srcset="./images/Camila-Garcia.jpg 1x, ./images/Camila-Garcia-2x.jpg 2x"
                 src="./images/Camila-Garcia.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -319,7 +352,7 @@
             <li class="workers-item">
               <img
                 class="workers-img"
-                srcset="./images/Daniel-Wilson.jpg 1x, ./images/Daniel-Wilson.jpg 2x"
+                srcset="./images/Daniel-Wilson.jpg 1x, ./images/Daniel-Wilson-2x.jpg 2x"
                 src="./images/Daniel-Wilson.jpg"
                 alt="Daniel Wilson"
                 width="264"
